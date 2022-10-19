@@ -20,4 +20,7 @@ inverse = results[1]
 if inverse < 0:
     inverse = m + inverse
 
-print("Inverse of", n, ":", inverse)
+if results[0] == 1:
+    print("Inverse of", n, ":", inverse)
+else:
+    print("No inverse found.")
